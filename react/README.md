@@ -30,7 +30,7 @@ optimizations you'll need to override `:file-min` to use non-minified version:
 
 src/cljs/deps.cljs:
 ```clj
-{:foreign-libs [{:provides ["cljs.react"] :file-min "cljsjs/development/react-with-addons.inc.js"}}
+{:foreign-libs [{:provides ["cljsjs.react"] :file-min "cljsjs/development/react-with-addons.inc.js" :file "cljsjs/development/react-with-addons.inc.js"}}
 ```
 
 [flibs]: https://github.com/clojure/clojurescript/wiki/Foreign-Dependencies
